@@ -43,9 +43,6 @@ def phrase_search(object_list: list, search_string: str) -> int:
             if search_string in y.lower():
                 return x['id']
 
-            # return phrase_arr
-
-
     return 0
     
 
